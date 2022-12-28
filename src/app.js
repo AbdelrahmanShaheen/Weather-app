@@ -70,6 +70,7 @@ app.get("*", (req, res) => {
     errorMessage: "Page not found",
   });
 });
+const port = process.env.PORT || 3000;
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
