@@ -14,9 +14,7 @@ const clearMessages = () => {
 const getData = async (_location) => {
   try {
     console.log();
-    const res = await fetch(
-      `http://localhost:3000/weather?address=${_location}`
-    );
+    const res = await fetch(`/weather?address=${_location}`);
     const data = await res.json();
     if (data.error) throw new Error(data.error);
     const location = data.location;
