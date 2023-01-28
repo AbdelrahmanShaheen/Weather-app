@@ -13,7 +13,7 @@
 - [Deployment/Live Demo](#deploymentlive-demo)
 </details>
 
-### Description
+## Description
 
 Return a weather forecast based on user's input location.
 
